@@ -68,7 +68,7 @@ public class SignLogJPanel {
         }
     });
     
-    private void updateLog(String content) {
+    private void updateLog(final String content) {
         service.submit(new Runnable() {
             
             @Override

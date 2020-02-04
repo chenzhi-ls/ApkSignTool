@@ -114,7 +114,7 @@ public class MainFrame extends JFrame {
 		}
 	});
 
-	private void apkSignHandler(String filePath) {
+	private void apkSignHandler(final String filePath) {
 		service.submit(new Runnable() {
 
 			@Override
